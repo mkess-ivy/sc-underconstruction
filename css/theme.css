@@ -167,13 +167,8 @@ img { width: 100%; }
 		margin: 30px 50px 30px 50px;
 	}
 }
-@media screen and (min-width: 1350px) {
-	.big-logo_img {
-		width: 45%;
-	}
-	.container {
-		width: 1320px;
-	}
+@media screen and (min-width: 1200px) {
+	
 	.col-6 {
 		float: left;
 		height: auto;
@@ -199,5 +194,13 @@ img { width: 100%; }
 		transform: rotate(0deg);	
 		top: 25vh;
 		left: 0;
+	}
+}
+@media screen and (min-width: 1350px) {
+	.big-logo_img {
+		width: 45%;
+	}
+	.container {
+		width: 1320px;
 	}
 }
